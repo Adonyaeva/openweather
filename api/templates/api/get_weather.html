@@ -3,6 +3,11 @@
         <title>Open weather</title>
     </head>
     <body>
-       {{ weather.temperature }}
+    <h1>Погода в городе</h1>
+       <h2> <b>{{ weather.city }}</b></h2><br>
+        <p> Температура {{ weather.temperature }}</p>
+        <p> Давление {{ weather.pressure }}</p>
+        <p>Ветер {{ weather.wind_speed }}</p>
+
     </body>
 </html>
