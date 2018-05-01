@@ -25,7 +25,7 @@ SECRET_KEY = '(bdka(u(c4xs&v(8y$x5+p=4idttgal2bv=lz!dlq@x^44z8&a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['adonyaeva.pythonanywhere.com']
 
 
 # Application definition
